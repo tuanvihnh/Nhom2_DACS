@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0a08eb6cadd348f0a616933d1534d4f4" Name="Diagram1">
+        <EntityTypeShape EntityType="QL_BTSModel.ChiNhanh" Width="1.5" PointX="0.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_BTSModel.ChiTietDonHang" Width="1.5" PointX="5.25" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_BTSModel.DanhGia" Width="1.5" PointX="5.25" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_BTSModel.DoanhThu" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_BTSModel.DonHang" Width="1.5" PointX="3" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_BTSModel.KhachHang" Width="1.5" PointX="3" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_BTSModel.KichThuoc" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_BTSModel.Loai" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_BTSModel.SanPham" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_BTSModel.TK" Width="1.5" PointX="0.75" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_BTSModel.SanPhamData" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="QL_BTSModel.FK_DonHang_ChiNhanh" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_BTSModel.FK_CTDH_DH" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_BTSModel.FK_GH_SP" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_BTSModel.FK_DanhGia_SanPham" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_BTSModel.FK_DonHang_TK" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_BTSModel.FK_KhachHang_TK" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_BTSModel.FK_SanPham_Size" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_BTSModel.FK_SP_Size" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_BTSModel.FK_SanPham_Loai" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_BTSModel.FK_SP_Loai" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
